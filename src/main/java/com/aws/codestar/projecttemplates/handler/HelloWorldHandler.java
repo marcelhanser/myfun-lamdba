@@ -24,6 +24,6 @@ public class HelloWorldHandler implements RequestHandler<Object, Object> {
             schmutz = UUID.randomUUID().toString();
         }
 
-        return new GatewayResponse("{ \"Output\": \"Hello World! " + schmutz + "\"}", headers, 200);
+        return new GatewayResponse("{ \"Output\": \"Hello My Jenny, you are part of this project:) Wuhuuuu &hearts;! " + schmutz + "\"}", headers, 200);
     }
 }
